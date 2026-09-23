@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>image_basic</title>
+</head>
+<body>
+    <h2>이미지 삽입하기</h2>
+    <img src = "Penguins.jpg" alt = "펭귄" srcset = "300">
+    <img src = "Nothing" alt = "이미지 없음" srcset ="300">
+    <img src = "https://i.pinimg.com/736x/92/ad/41/92ad41b3c341b31ebf8b7008a2478b6c.jpg" width ="200">
+    <!--:https://i.pinimg.com/736x/92/ad/41/92ad41b3c341b31ebf8b7008a2478b6c.jpg-->
+
+    <h2>음악 삽입하기</h2>
+    <audio src = "Kalimba.mp3" controls = ""controls"><</audio>
+    <h2>웹 브라우저 제약이 없도록 음악 삽입</h2>
+    <audio controls = "controls">
+        <source src = "Kalimba.mp3" type = "audio/mp3">
+        <source src = "kalimba.ogg" type = "audio/ogg">
+    </audio>
+    <h2>동영상 삽입</h2>
+    <video controls = "controls">
+        <source src = "wildlife.mp4" type = "video/mp4">
+        <source src = "wildlife.webm" type = "video/webm">
+    </video>
+    <h2>18동영상 불러오는 동안 다른 이미지 보여주기</h2>
+    <video controls = "https://kr.pinterest.com/pin/811844270368397404/" width="200">
+        <source src = "wildlife.mp4" type = "video/mp4">
+        <source src = "wildlife.webm" type = "video/webm">
+    </video>
+</body>
+</html>
