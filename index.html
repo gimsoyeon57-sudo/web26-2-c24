@@ -1,53 +1,222 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    
-    <title>Go to Home</title>
+    <title>Go to home</title>
+    <style>
+        a { display: block; }
+    </style>
 </head>
 <body>
-    집가고싶다
+    <h1>[수업 실습]</h1>
+    <hr>
+    <h2>chapter2</h2>
+    <a href="chapter2/01 HTML_Page.html">01 HTML_Page.html</a>
+    <a href="chapter2/01 주석.html">01 주석.html</a>
+    <a href="chapter2/02 HTML_PageWithStyle.html">02 HTML_PageWithStyle.html</a>
+    <a href="chapter2/04 HTML_PageWithLink.html">04 HTML_PageWithLink.html</a>
+    <a href="chapter2/05 HTML_PageIthStyle.html">05 HTML_PageIthStyle.html</a>
+    <a href="chapter2/07 HTML_PageWithOuterScrript.html">07 HTML_PageWithOuterScrript.html</a>
+    <a href="chapter2/08 HTML_PageWithOuterScrript.html">08 HTML_PageWithOuterScrript.html</a>
+    <hr>
+    <h2>chapter3</h2>
+    <a href="chapter3/1text_header.html">1text_header.html</a>
+    <a href="chapter3/3text_content.html">3text_content.html</a>
+    <a href="chapter3/5_text_anchor.html">5_text_anchor.html</a>
+    <a href="chapter3/10nested_lis.html">10nested_lis.html</a>
+    <hr>
+    <h2>chapter4</h2>
+    <a href="chapter4/1form_basic.html">1form_basic.html</a>
+    <a href="chapter4/2note_form.html">2note_form.html</a>
+    <a href="chapter4/4form_selectBasic.html">4form_selectBasic.html</a>
+    <a href="chapter4/8note_textarea.html">8note_textarea.html</a>
+    <a href="chapter4/9space_block.html">9space_block.html</a>
+    <a href="chapter4/12space_semanticless.html">12space_semanticless.html</a>
+    <a href="chapter4/13space_semantic.html">13space_semantic.html</a>
+    <hr>
+    <h2>chapter5</h2>
+    <a href="chapter5/1selector_wildcard.html">1selector_wildcard.html</a>
+    <a href="chapter5/5etc_action.html">5etc_action.html</a>
+    <a href="chapter5/9attribute_Basic.html">9attribute_Basic.html</a>
+    <a href="chapter5/11desc_descendants.html">11desc_descendants.html</a>
+    <a href="chapter5/13desc_tableWithChildren.html">13desc_tableWithChildren.html</a>
+    <hr>
+    <h2>chapter6</h2>
+    <a href="chapter6/1_box_widthHeight.html">1_box_widthHeight.html</a>
+    <a href="chapter6/5border_basic.html">5border_basic.html</a>
+    <a href="chapter6/8display_none.html">8display_none.html</a>
+    <a href="chapter6/14background_image.html">14background_image.html</a>
 
-
-<hr>
-<h2>chapter2</h2>
-<a href="chapter2/01 HTML_Page.html">1text_header.html</a>
-<a href="chapter2/01 주석.html">3text_content.html</a>
-<a href="chapter2/02 HTML_PageWithStyle.html">5_text_anchor.html</a>
-<a href="chapter2/04 HTML_PageWithLink.html">10nested_lis.html</a>
-<a href="chapter2/05 HTML_PageWIthStyle.html">5_text_anchor.html</a>
-<a href="chapter2/07 HTML_PageWithOuterScrript.html">5_text_anchor.html</a>
-<a href="chapter2/08 HTML_PageWithOuterScrript.html">5_text_anchor.html</a>
-<hr>
-<h2>chapter3</h2>
-<a href="chapter3/1text_header.html">1text_header.html</a>
-<a href="chapter3/3text_content.html">3text_content.html</a>
-<a href="chapter3/5_text_anchor.html">5_text_anchor.html</a>
-<a href="chapter3/10nested_lis.html">10nested_lis.html</a>
-<hr>
-<h2>chapter4</h2>
-<a href="chapter4/1form_basic.html">1text_header.html</a>
-<a href="chapter4/2note_form.html">1text_header.html</a>
-<a href="chapter4/4form_selectBasic.html">1text_header.html</a>
-<a href="chapter4/8note_textarea.html">1text_header.html</a>
-<a href="chapter4/9space_block.html">1text_header.html</a>
-<a href="chapter4/12space_semanticLess.html">1text_header.html</a>
-<a href="chapter4/13space_semantic.html">10nested_lis.html</a>
-<hr>
-<h2>chapter5</h2>
-<a href="chapter5/1selector_wildcard.html">10nested_lis.html</a>
-<a href="chapter5/5etc_action.html">10nested_lis.html</a>
-<a href="chapter5/9attribute_Basic.html">10nested_lis.html</a>
-<a href="chapter5/11desc_descendants.html">10nested_lis.html</a>
-<a href="chapter5/13desc_tableWithChildren.html">10nested_lis.html</a>
-
-<h2>chapter6</h2>
-<a href="chapter6/1_box_widthHeight.html">10nested_lis.html</a>
-<a href="chapter6/5border_basic.html">10nested_lis.html</a>
-<a href="chapter6/8display_none.html">10nested_lis.html</a>
-<a href="chapter6/14background_image.html">10nested_lis.html</a>
-
-
-
+    <hr>
+    <h1>[과제]</h1>
+    <h2>week9</h2>
+    <h3>종합예제</h3>
+    <a href="week9/blog.html">1. 블로그 html</a>
+    <a href="week9/blog.css">2. 블로그 css</a>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Example Preview</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <div id="page-wrapper">
+        <header id="main-header">
+            <hgroup>
+                <h1 class="master-title">HTML5 Example Preview</h1>
+                <h2 class="master-description">한빛아카데미</h2>
+            </hgroup>
+        </header>
+        <nav id="main-navigation">
+            <div class="pull-left">
+                <ul class="outer-menu">
+                    <li class="outer-menu-item">
+                        <span class="menu-title">HTML5</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                        </ul>
+                    </li>
+                    <li class="outer-menu-item">
+                        <span class="menu-title">CSS3</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                        </ul>
+                    </li>
+                    <li class="outer-menu-item">
+                        <span class="menu-title">JavaScript</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="pull-right">
+                <div class="search-bar">
+                    <form>
+                        <input type="text" class="input-search">
+                        <input type="submit" class="input-search-submit" value="검색">
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div id="content">
+            <section id="main-section">
+                <article>
+                    <div class="article-header">
+                        <h1 class="article-title">HTML5 개요와 활용</h1>
+                        <p class="article-date">2023년 05월 22일</p>
+                    </div>
+                    <div class="article-body">
+                        <img src="https://placehold.co/430x280">
+                        <br>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <br>
+                        <p>Proin ut fringilla sapien.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="article-header">
+                        <h1 class="article-title">HTML5 응용과 실습</h1>
+                        <p class="article-date">2023년 05월 24일</p>
+                    </div>
+                    <div class="article-body">
+                        <img src="https://placehold.co/430x280">
+                        <br>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <br>
+                        <p>Proin ut fringilla sapien.</p>
+                    </div>
+                </article>
+            </section>
+            <aside id="main-aside">
+                <div class="aside-list">
+                    <h3>카테고리</h3>
+                    <ul>
+                        <li><a href="#">데이터</a></li>
+                        <li><a href="#">데이터</a></li>
+                        <li><a href="#">데이터</a></li>
+                        <li><a href="#">데이터</a></li>
+                        <li><a href="#">데이터</a></li>
+                    </ul>
+                </div>
+                <div class="aside-list">
+                    <h3>최근 글</h3>
+                    <ul>
+                        <li><a href="#">데이터</a></li>
+                        <li><a href="#">데이터</a></li>
+                        <li><a href="#">데이터</a></li>
+                        <li><a href="#">데이터</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <footer id="main-footer">
+            <a href="#">ITCookBook HTML5 Programming</a>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: "Malgun Gothic", sans-serif; background: #f2f2f2; color: #333; }
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+
+#page-wrapper { width: 960px; margin: 0 auto; background: #fff; }
+
+/* header */
+#main-header { padding: 30px; background: #2c3e50; color: #fff; text-align: center; }
+.master-title { font-size: 32px; }
+.master-description { font-size: 16px; font-weight: normal; margin-top: 8px; }
+
+/* nav */
+#main-navigation { background: #34495e; height: 50px; }
+.pull-left { float: left; }
+.pull-right { float: right; }
+.outer-menu { display: flex; }
+.outer-menu-item { position: relative; width: 140px; height: 50px; text-align: center; }
+.menu-title { display: block; line-height: 50px; color: #fff; cursor: pointer; }
+.outer-menu-item:hover { background: #1abc9c; }
+.inner-menu { display: none; position: absolute; top: 50px; left: 0; width: 100%; background: #46627f; z-index: 10; }
+.outer-menu-item:hover .inner-menu { display: block; }
+.inner-menu-item a { display: block; padding: 10px 0; color: #fff; font-size: 14px; }
+.inner-menu-item a:hover { background: #1abc9c; }
+.search-bar { padding: 10px 15px; }
+.input-search { width: 160px; height: 30px; padding: 0 8px; border: 0; }
+.input-search-submit { height: 30px; padding: 0 12px; border: 0; background: #1abc9c; color: #fff; cursor: pointer; }
+
+/* content */
+#content { overflow: hidden; padding: 20px; }
+#main-section { float: left; width: 650px; }
+article { margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid #ddd; }
+.article-title { font-size: 24px; }
+.article-date { margin-top: 6px; font-size: 13px; color: #888; }
+.article-body { margin-top: 15px; line-height: 1.6; }
+.article-body img { max-width: 100%; }
+
+/* aside */
+#main-aside { float: right; width: 230px; }
+.aside-list { margin-bottom: 20px; padding: 15px; background: #ecf0f1; }
+.aside-list h3 { margin-bottom: 10px; padding-bottom: 8px; border-bottom: 2px solid #1abc9c; font-size: 16px; }
+.aside-list li { padding: 5px 0; font-size: 14px; }
+.aside-list a:hover { color: #1abc9c; }
+
+/* footer */
+#main-footer { clear: both; padding: 20px; background: #2c3e50; color: #fff; text-align: center; }
